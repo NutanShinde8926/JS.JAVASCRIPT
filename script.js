@@ -92,23 +92,61 @@
 //     console.log("young generation");
 // }
 
-let mode = "dark";
-let color;
-if(mode === "dark"){
-    color = "black";
-}
-else if(mode === "pink"){
-    color = "pink";
-}
-else if(mode === "blue"){
-    color = "blue";
-}
-else{
-    color = "white";
-}
-console.log (color);
+// let mode = "dark";
+// let color;
+// if(mode === "dark"){
+//     color = "black";
+// }
+// else if(mode === "pink"){
+//     color = "pink";
+// }
+// else if(mode === "blue"){
+//     color = "blue";
+// }
+// else{
+//     color = "white";
+// }
+// console.log (color);
 
 
-if (mode === "dark") {
-        console.log(mode); 
-    }
+// if (mode === "dark") {
+//         console.log(mode); 
+//     }
+
+//TERNARY OPERATORS
+
+let age = 26;
+
+let result = age > 18? "adult": "not adult";
+console.log(result); //simpler ,compct if-else
+
+
+
+    //Switch statement
+
+    const price = "Oranges";
+switch (expr) {
+  case "Oranges":
+    console.log("Oranges are $0.59 a pound.");
+    break;
+  case "Mangoes":
+  case "Papayas":
+    console.log("Mangoes and papayas are $2.79 a pound.");
+    // Expected output: "Mangoes and papayas are $2.79 a pound."
+    break;
+  default:
+    console.log(`Sorry, we are out of ${expr}.`);
+}
+
+const expr = "outcome";
+switch (expr)  {
+  case "what if they are lying":
+    console.log("they will be thrown out of palace");
+  case "what if they are being blame":
+    console.log("then it will be shame for us ");
+  case "outcome":
+    console.log("no one going to belive in our justice");
+    break;
+  default:
+    statements
+}
