@@ -27,53 +27,88 @@
 
 //if else statement
 
-let mode = "light";
-let color ;
+// let mode = "light";
+// let color ;
 
-if (mode === "dark") {
-    color = "black";
-} else {
-    color = "white";
-}
+// if (mode === "dark") {
+//     color = "black";
+// } else {
+//     color = "white";
+// }
 
-console.log(color);
-
-
+// console.log(color);
 
 
-let age = 25;
-if (age >= 18) {
-    console.log("vote");
-    } else {
-        console.log("you cannot vote");
-    }
+
+
+// let age = 25;
+// if (age >= 18) {
+//     console.log("vote");
+//     } else {
+//         console.log("you cannot vote");
+//     }
 
 
 
    // EVEN OR ODD
-let num = 10 ;
-if (num % 2 === 0) {
-    console.log(num, "is even")
+// let num = 10 ;
+// if (num % 2 === 0) {
+//     console.log(num, "is even")
+// }
+// else {
+//     console.log(num, "is odd");
+// }
+
+
+
+// num = 7;
+// if( num % 2 === 0) {
+//     console.log(num, "is even");
+// }
+// else{
+//     console.log(num, "is odd");
+// }
+
+
+// num = 15;
+// if( num % 2 === 0) {
+//     console.log(num, "is even");
+// }
+// else{
+//     console.log(num, "is odd");
+// }
+
+
+// ELSE IF - Statement
+
+// let age = 10;
+// if( age >= 18){
+//     console.log("junior can vote");
+// }
+// else if (age >= 60) {
+//     console.log("senior citizen");
+// }
+// else{
+//     console.log("young generation");
+// }
+
+let mode = "dark";
+let color;
+if(mode === "dark"){
+    color = "black";
 }
-else {
-    console.log(num, "is odd");
+else if(mode === "pink"){
+    color = "pink";
 }
-
-
-
-num = 7;
-if( num % 2 === 0) {
-    console.log(num, "is even");
+else if(mode === "blue"){
+    color = "blue";
 }
 else{
-    console.log(num, "is odd");
+    color = "white";
 }
+console.log (color);
 
 
-num = 15;
-if( num % 2 === 0) {
-    console.log(num, "is even");
-}
-else{
-    console.log(num, "is odd");
-}
+if (mode === "dark") {
+        console.log(mode); 
+    }
