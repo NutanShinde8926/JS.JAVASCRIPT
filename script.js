@@ -2,15 +2,16 @@
  // Conditional Statement 
 
 
-let mode = "dark";
-
+let mode = "light";
 let color;
+
+
 if(mode === "dark"){
     color = "black";
 }
 
 if(mode === "light"){
-    color = "light";
+    color = "black";
 
 }
 console.log(color);
