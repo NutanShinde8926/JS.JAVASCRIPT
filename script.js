@@ -132,5 +132,13 @@
 
 //Q1 . Get user to input a number using prompt ("Enter a number :"). Check if the number is a multiple of 5 or not .
 
-let name = prompt("hello!");
-console.log()
+// alert("hello"); //one time popup
+ 
+let num = prompt("Enter a number :");
+
+if(num % 3 === 0) {
+    console.log( num ," = number is multiple of 3")
+}
+else {
+    console.log(num ,"= number is NOT multiple of 3")
+}
