@@ -134,11 +134,12 @@
 
 // alert("hello"); //one time popup
  
-let num = prompt("Enter a number :");
+let num  = prompt("Enter a number :");
 
-if(num % 3 === 0) {
-    console.log( num ," = number is multiple of 3")
+if(num % 5 === 0){
+    console.log(num ," number is multiple of 5");
 }
 else {
-    console.log(num ,"= number is NOT multiple of 3")
+    console.log(num,"number is NOT multipl of 5");
 }
+
