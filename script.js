@@ -134,12 +134,33 @@
 
 // alert("hello"); //one time popup
  
-let num  = prompt("Enter a number :");
+// let num  = prompt("Enter a number :");
 
-if(num % 5 === 0){
-    console.log(num ," number is multiple of 5");
-}
-else {
-    console.log(num,"number is NOT multipl of 5");
-}
+// if(num % 5 === 0){
+//     console.log(num ," number is multiple of 5");
+// }
+// else {
+//     console.log(num,"number is NOT multipl of 5");
+// }
 
+// Q2 . write a code which can give grades to students according to their scores:
+
+let score = prompt("Enter the marks");
+if ( score >= 80) {
+console.log(A);
+}
+else if(score <= 70) {
+    console.log(B);
+}
+else if(score <= 60) {
+    console.log(C);
+}
+else if(score <= 50) {
+    console.log(D);
+}
+else if (score <= 40) {
+    console.log(F);
+}
+  else {
+        console.log(score);
+    }
