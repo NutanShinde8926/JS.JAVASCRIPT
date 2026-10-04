@@ -189,8 +189,8 @@
      
 //this is QS2. JS Program
 
-    //let score = prompt("Enter you score(0-100):");
-    let score = 10;
+    let score = prompt("Enter you score(0-100):");
+    //let score = 10;
     let grade;
 
     if (score >= 90 && score <= 100) {
