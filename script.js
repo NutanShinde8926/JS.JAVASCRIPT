@@ -190,7 +190,7 @@
 //this is QS2. JS Program
 
     //let score = prompt("Enter you score(0-100):");
-    let score = 30;
+    let score = 10;
     let grade;
 
     if (score >= 90 && score <= 100) {
@@ -205,8 +205,8 @@
       else if (score >= 50 && score <= 49) {
         grade = "D";
      }
-      else if (score >= 0 && score <= 49) {
-        grade = "F";
+      else  {
+        grade = "fail";
      }
      
      console.log("accroding to you grade you :", grade);
