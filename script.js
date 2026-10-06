@@ -252,22 +252,9 @@
 //console.log(i); ///thst why here we didt get i = 6 
 //console.log("loop has ended");
 
-// for (var i = 1;i <=5; i++) {
-//    console.log("i =", i);  //5 times execute
-// }
-// console.log(i);
+ for (var i = 1;i <=5; i++) {
+    console.log("i =", i);  //5 times execute
+ }
+ console.log(i);
 // console.log("loop has ended");  //here you can use var to redeclared var vlaue again and again but not in let 
 //but its not correct way so we use let
-
-
-//LOOP IN JS INFINITY LOOP DONT DO IT 
-
-
-
-//WHILE LOOP 
-
-let i = 1;
-while(1<=5) {
-   console.log("i =" ,i);
-   i++;
-}
