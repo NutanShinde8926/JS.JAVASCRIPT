@@ -189,25 +189,25 @@
      
 //this is QS2. JS Program
 
-    let score = prompt("Enter you score(0-100):");
-    //let score = 10;
-    let grade;
+   //  let score = prompt("Enter you score(0-100):");
+   //  //let score = 10;
+   //  let grade;
 
-    if (score >= 90 && score <= 100) {
-        grade = "A";
-     }
-     else if (score >= 70 && score <= 80) {
-        grade = "B";
-     }
-      else if (score >= 60 && score <= 69) {
-        grade = "C";
-     }
-      else if (score >= 50 && score <= 49) {
-        grade = "D";
-     }
-      else  {
-        grade = "fail";
-     }
+   //  if (score >= 90 && score <= 100) {
+   //      grade = "A";
+   //   }
+   //   else if (score >= 70 && score <= 80) {
+   //      grade = "B";
+   //   }
+   //    else if (score >= 60 && score <= 69) {
+   //      grade = "C";
+   //   }
+   //    else if (score >= 50 && score <= 49) {
+   //      grade = "D";
+   //   }
+   //    else  {
+   //      grade = "fail";
+   //   }
      
    //   console.log("accroding to you grade you :", grade);
 
@@ -216,15 +216,15 @@
 
    // for loop 😊☺️☺️☺️☺️
 // print 1 to 5
-// for(i = 1; i<= 5; i++){   //i<=1,2<=5 3<=5 4<=5 5<=5
-//  console.log("apana college");
-// }
+for(i = 1; i<= 5; i++){   //i<=1,2<=5 3<=5 4<=5 5<=5
+ console.log("apana college");
+}
 
-// for(let count=1;count<=10000;count++){
-//    console.log("APANA COLLEGE");  //5 times execute
-// }
-// console.log("loop has ended");
-// console.log("yes if this is printed means the loop has ended");
+for(let count=1;count<=10000;count++){
+   console.log("APANA COLLEGE");  //5 times execute
+}
+console.log("loop has ended");
+console.log("yes if this is printed means the loop has ended");
 
 
 //CALCULATE sum of 1 to 5
