@@ -216,22 +216,22 @@
 
    // for loop 😊☺️☺️☺️☺️
 // print 1 to 5
-for(i = 1; i<= 5; i++){   //i<=1,2<=5 3<=5 4<=5 5<=5
- console.log("apana college");
-}
+// for(i = 1; i<= 5; i++){   //i<=1,2<=5 3<=5 4<=5 5<=5
+//  console.log("apana college");
+// }
 
-for(let count=1;count<=10000;count++){
-   console.log("APANA COLLEGE");  //5 times execute
-}
-console.log("loop has ended");
-console.log("yes if this is printed means the loop has ended");
+// for(let count=1;count<=10000;count++){
+//    console.log("APANA COLLEGE");  //5 times execute
+// }
+// console.log("loop has ended");
+// console.log("yes if this is printed means the loop has ended");
 
 
 //CALCULATE sum of 1 to 5
-// let sum = 0;
-// for(let i=1; i<=5; i++) {
-// sum = sum + i;
-// }
-// console.log("sum=  ",sum)
-// console.log("loop has ended");
+let sum = 0;
+for(let i=1; i<=5; i++) {
+sum = sum + i;
+}
+console.log("sum=  ",sum)
+console.log("loop has ended");
 
