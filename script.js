@@ -237,10 +237,24 @@
 
 
 //CALCULATE sum of 1 to n
-let sum = 0;
-let n = 100;
-for(let i=1; i<=n; i++) {
-sum = sum + i; //sum=0+1,1+2,3+3,6+4,10+5
+// let sum = 0;
+// let n = 100;
+// for(let i=1; i<=n; i++) {
+// sum = sum + i; //sum=0+1,1+2,3+3,6+4,10+5
+// }
+// console.log("sum=  ",sum)
+// console.log("loop has ended");
+
+//print 1 to 5
+for(let i=1;i<=5;i++){  //let execute once in block scope in culry braces 
+   console.log("i=", i);  //5 times execute
 }
-console.log("sum=  ",sum)
+console.log(i); ///thst why here we didt get i = 6 
 console.log("loop has ended");
+
+// for (var i = 1;i <=5; i++) {
+//    console.log("i =", i);  //5 times execute
+// }
+// console.log(i);
+// console.log("loop has ended");  //here you can use var to redeclared var vlaue again and again but not in let 
+//but its not correct way so we use let
